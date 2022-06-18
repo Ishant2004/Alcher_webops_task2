@@ -1,0 +1,218 @@
+.webops-para{
+  font-size: 18px;
+  font-family: Noto Sans, arial;
+  font-weight: bold;
+  margin-left: 24px;
+  margin-right: 400px;
+  display: inline-block;
+}
+.home-para{
+  margin-left: 380px;
+  font-size: 19px;
+  font-family:  Noto Sans, arial;
+}
+.about-para{
+  margin-left: 16px;
+  font-size: 19px;
+  font-family:  Noto Sans, arial;
+}
+.contact-para{
+  margin-left: 16px;
+  font-size: 19px;
+  font-family:  Noto Sans, arial;
+}
+.search-box{
+  width: 270px;
+  height: 37px;
+  border-radius: 5px;
+  font-size: 15px;
+  border-color: rgb(180, 177, 177) ;
+  border-width: 1px;
+  border-style: solid;
+  font-family:  Noto Sans, arial;
+  padding-left: 15px;
+}
+.home-para:hover , .about-para:hover , .contact-para:hover{
+  transition: opacity 0.15s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.webops-para:hover{
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.15s;
+}
+.home-para:active , .about-para:active , .contact-para:active , .webops-para:active{
+  opacity: 0.5;
+  transition: opacity 0.15s;
+}
+hr{
+  border-top: 3px double #c9c9c9;
+  width: 100%;
+}
+.lorem-para{
+  text-align: center;
+  font-family:  arial;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 50px;
+} 
+.span-loremipsum{
+  color: rgb(72, 95, 244);
+}
+.long-para{
+  text-align: center;
+  font-size: 20px;
+  font-family:   arial;
+  color: rgb(138, 137, 137);
+}
+.button-1{
+font-family: Noto Sans, arial;
+background-color: rgb(72, 95, 244);
+color: rgb(255, 255, 255);
+border-color: rgb(72, 95, 244);
+border-radius: 6px;
+padding-left:28px  ;
+padding-right:28px ;
+padding-top:12px ;
+padding-bottom:12px ;
+cursor: pointer;
+border-style: solid;
+border-width: 2px;
+margin-left: 70px;
+margin-right: 2px;
+margin-top: 5px;
+margin-bottom: 5px;
+font-size: 15px;
+transition: opacity 0.15s,
+background-color 0.15s,  
+color 0.15s;
+vertical-align: top;
+
+}
+.button-1:hover{
+opacity: 0.7;
+transition: opacity 0.15s;
+}
+.button-1:active{
+opacity: 0.5;
+transition: opacity 0.15s;
+}
+.button-2{
+font-family: Noto Sans, arial;
+background-color: rgb(255, 255, 255);
+color: rgb(59, 82, 233);
+border-color: rgb(225, 225, 225);
+border-width: 1px;
+border-radius: 4px;
+padding-left:28px  ;
+padding-right:28px ;
+padding-top:12px ;
+padding-bottom:12px ;
+cursor: pointer;
+border-style: solid;
+border-width: 2px;
+margin-left: 2px;
+margin-right: 12px;
+margin-top: 5px;
+margin-bottom: 5px;
+font-size: 15px;
+transition: opacity 0.15s,
+background-color 0.15s,  
+color 0.15s;
+vertical-align: top;
+box-shadow: 0px 1px 6px rgba(0,0,0,0.1);
+}
+.button-2:hover{
+  opacity: 0.7;
+  transition: opacity 0.15s;
+}
+.button-2:active{
+opacity: 0.5;
+transition: opacity 0.15s;
+}
+.formatting-para{
+  font-size: 17px;
+  font-family: Noto Sans, arial;
+  display: inline-block;
+  margin-left: 70px;
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-bottom: 1px;
+}
+.img-landscape{
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 120px;
+  border-radius: 6px;
+}
+.links-para{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 20px;
+  font-family:  arial;;
+  margin-bottom: 1px;
+  margin-top: 46px;
+}
+table, th, td{
+  border: 1px solid rgb(211, 205, 205);
+  border-collapse:collapse;
+  column-width: 100px;
+  margin-left: 70px;
+  margin-top: 5px;
+}
+th{
+  height: 40px;
+  text-align: left;
+}
+td{
+  height: 40px;
+  text-align: center;
+}
+.th-1{
+  column-width: 140px;
+}
+.th-2{
+  column-width: 110px;
+}
+.th-3{
+  column-width: 75px;
+  text-align: center;
+}
+.iframe-style{
+  margin-left: 120px;
+  margin-bottom: 24px;
+  
+}
+.below-link{
+  color: rgb(72, 95, 244) ;
+}
+.below-link:hover{
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.15s;
+}
+.below-link:active{
+  opacity: 0.5;
+  transition: opacity 0.15s;
+}
+.top-links{
+  color: black;
+  text-decoration: none;
+  font-family: Noto Sans, arial;
+}
+.webops-link{
+  color: black;
+  text-decoration: none;
+}
+.button1-link{
+  text-decoration:none; 
+  color: white ;
+}
+.button2-link{
+  color: rgb(72, 95, 244);
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+}
